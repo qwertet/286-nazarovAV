@@ -1,0 +1,160 @@
+body {
+	margin: 0px;
+	background: url(pic.jpg) no-repeat;
+	-moz-background-size: 100%;
+ /* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+ /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+ /* Opera 9.6+ */
+	background-size: cover;
+}
+
+.button {
+	background: #ffffff;
+	border-style: none;
+	border-radius: 10px;
+	font-family: 'Lato', sans-serif;
+	width: 162px;
+	height: 34px;
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	background-color: #ffc107;
+}
+
+.button:active {
+	background-color: #efba1b;
+}
+
+.main {
+	background-color: #fbfbfb;
+	width: 68%;
+	height: 1000px;
+	margin: auto;
+}
+
+.inputStyle {
+	font-size: 17px;
+	height: 25px;
+	border: none;
+	border-bottom: 2px solid #9e9e9e;
+	background-color: #fbfbfb;
+	font-family: 'Lato', sans-serif;
+	width: 230px;
+	outline: none;
+}
+
+.inputStyle2 {
+	font-size: 17px;
+	height: 25px;
+	border: none;
+	background-color: #fbfbfb;
+	font-family: 'Lato', sans-serif;
+	width: 230px;
+	outline: none;
+}
+
+.inputStyle:focus {
+	border-bottom: 2px solid #ffc107;
+}
+
+.foorm {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.tittle {
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-top: 148px;
+}
+
+.tittle:active {
+	color: #ffc107;
+}
+
+a {
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+
+.undertittle {
+	color: #585858b8;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bar {
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+
+.bar_p {
+	margin: 0px;
+	font-family: 'roboto', sans-serif;
+	padding-top: 26px;
+	font-size: 18px;
+}
+
+.bar_p2 {
+	margin: 0px;
+	font-family: 'roboto', sans-serif;
+	font-size: 18px;
+	padding-top: 26px;
+}
+
+.stuff {
+	background-color: #fbfbfb;
+	display: flex;
+	height: 100%;
+	width: 68%;
+	margin: auto;
+}
+
+.one {
+	background-color: white;
+	height: 100%;
+	width: 200px;
+	margin: auto;
+}
+
+.one:hover {
+	background-color: #efefef;
+}
+
+.one:active {
+	background-color: #dadada;
+}
+
+.two {
+	background-color: white;
+	height: 100%;
+	width: 200px;
+	margin: auto;
+}
+
+.two:hover {
+	background-color: #efefef;
+}
+
+.two:active {
+	background-color: #dadada;
+}
+
+.about_p {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}

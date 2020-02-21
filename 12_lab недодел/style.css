@@ -1,0 +1,96 @@
+body {
+	margin: 0px;
+	background: url(pic.jpg) no-repeat;
+	-moz-background-size: 100%;
+ /* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+ /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+ /* Opera 9.6+ */
+	background-size: cover;
+}
+
+.button {
+	background: #ffffff;
+	border-style: none;
+	border-radius: 10px;
+	font-family: 'Lato', sans-serif;
+	width: 162px;
+	height: 34px;
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	background-color: #31de6e;
+}
+
+.button:active {
+	background-color: #32ce69;
+}
+
+.main {
+	background-color: #fbfbfb;
+	width: 68%;
+	height: 1000px;
+	margin: auto;
+}
+
+.inputStyle {
+	font-size: 17px;
+	height: 25px;
+	border: none;
+	border-bottom: 2px solid #9e9e9e;
+	background-color: #fbfbfb;
+	font-family: 'Lato', sans-serif;
+	width: 230px;
+	outline: none;
+}
+
+.inputStyle2 {
+	font-size: 17px;
+	height: 25px;
+	border: none;
+	background-color: #fbfbfb;
+	font-family: 'Lato', sans-serif;
+	width: 230px;
+	outline: none;
+}
+
+.inputStyle:focus {
+	border-bottom: 2px solid #46e67f;
+}
+
+.foorm {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.tittle {
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-top: 148px;
+}
+
+.tittle:active {
+	color: #31de6e;
+}
+
+a {
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+
+.undertittle {
+	color: #585858b8;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
